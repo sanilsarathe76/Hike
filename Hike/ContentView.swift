@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        CardView()
+        CardView(array: ["image-1", "image-2", "image-3", "image-4", "image-5"], randomImage: "image-1")
     }
 }
 

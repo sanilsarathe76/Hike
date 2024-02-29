@@ -22,7 +22,8 @@ struct CustomBackgroundView: View {
             LinearGradient(
                 colors: [
                     .customGreenDark,
-                    .customGreenMedium],
+                    .customGreenMedium
+                ],
                 startPoint: .top,
                 endPoint: .bottom
             )
